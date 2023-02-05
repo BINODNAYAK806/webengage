@@ -1,0 +1,224 @@
+
+
+.nd{
+
+/* background-color: aqua; */
+
+
+}
+#maindiv {
+    height: 100%;
+    width:  100%;
+
+    /* background-color: black; */
+    display: flex;
+    /* border: 2px solid black; */
+
+}
+.nd{
+
+    width: 50%;
+    height: 100%;
+
+}
+#img1{
+
+    width: 800px;
+    height: 700px;
+
+
+}
+#nd2{
+
+    width: 50%;
+    height: 100%;
+
+    
+
+}
+#get1{
+
+    font-size: 70px;
+
+
+}
+#get2{
+
+    font-size: 50px;
+    margin-top: -5%;
+
+}
+#get{
+
+height: 45%;
+width: 100%;
+background-color: white;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+/* 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+padding-top: 10%;
+}
+
+
+#form{
+
+text-align: center;
+
+
+
+}
+
+#email{
+
+  padding: 23px 200px;  
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-width: calc(var(--border-width) * 1px);
+  border-style: "solid";
+  border-color var(--accent)
+  border-radius calc(var(--border-radius) * 1px)
+  text-align left
+  outline transparent
+  width 100%
+  transition border-color calc(var(--transition, 0.2) * 1s) ease
+
+
+
+}
+#mobile{
+
+    padding: 23px 200px;  
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-width: calc(var(--border-width) * 1px);
+  border-style: "solid";
+  border-color var(--accent)
+  border-radius calc(var(--border-radius) * 1px)
+  text-align left
+  outline transparent
+  width 100%
+  transition border-color calc(var(--transition, 0.2) * 1s) ease
+
+
+}
+#submit-btn {
+
+    padding: 23px 200px;  
+  font-size: 25px;
+    color: white;    
+  background-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#wm{
+    margin-top: -2%;
+    font-size: medium;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    .nd {
+
+        /* background-color: blue; */
+        /* display: flex; */
+        width: 100%;
+        height: 50%;
+    }
+    #maindiv {
+
+        width: 100%;
+        height: 100%; 
+        /* display: flex; */
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #img1{
+
+        height: 300px;
+        width: 400px;
+
+
+    }
+
+    #get1{
+
+        font-size: 30px;
+        text-align: center;
+
+    }
+    #get2{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+#get{
+    margin-top: -60%;
+    /* width: 100%; */
+    /* height: 100%; */
+    margin-left: 40%;
+    margin-bottom: -90%;
+    text-align: center;
+    -ms-flex-item-align: center;
+    font-size: medium;
+    /* display: flex; */
+  justify-content: center;
+  align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#submit-btn {
+
+    padding: 5px 110px;  
+  font-size: 25px;
+  margin-top: -20%;
+    color: white;    
+  background-color: black;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  white-space: nowrap ;
+
+
+}
+
+#mobile{
+
+    padding: 12px 50px;  
+    
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-width: calc(var(--border-width) * 1px);
+  border-style: "solid";
+  border-color var(--accent)
+  border-radius calc(var(--border-radius) * 1px)
+  text-align left
+  outline transparent
+  width 100%
+  transition border-color calc(var(--transition, 0.2) * 1s) ease
+
+
+}
+#email{
+    padding: 12px 50px;  
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-width: calc(var(--border-width) * 1px);
+    border-style: "solid";
+    border-color var(--accent)
+    border-radius calc(var(--border-radius) * 1px)
+    text-align left
+    outline transparent
+    width 100%
+    transition border-color calc(var(--transition, 0.2) * 1s) ease
+  
+}
+
+
+  }

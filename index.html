@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <div id="maindiv">
+    <div class="nd">
+        
+        <img id="img1" src="IM2.PNG" alt="" srcset="">
+    </div>
+    <div id="nd2">
+
+      <div id="get">
+        <h1 id="get1">Get a FREE</h1>
+        <h2 id="get2" >consultationn with an expert</h2>
+
+    </div>
+    <div id="form">
+        <form id="survey-form">
+          <!-- <label for="email">Email Address:</label> -->
+          <input type="email" placeholder="Enter your email" id="email" required>
+          <br><br>
+          <!-- <label for="mobile">Mobile Number:</label> -->
+          <input type="text"  placeholder="Enter your Mobile" id="mobile" required>
+          <br><br>
+          <!-- <label for="country">Country Code:</label>
+          <select id="country">
+            <option value="+91">+1 (USA and Canada)</option>
+            
+            Add more country code options as necessary
+          </select> -->
+          <p id="wm"></p>
+          <br><br>
+          <button  id="submit-btn">TALK TO US </button>
+        </form>
+    </div>
+
+
+    </div>
+    
+</div>
+<script>
+      // Add JavaScript code for page 1 here
+      document.getElementById("submit-btn").addEventListener("click", function(event) {
+        event.preventDefault();
+        const email = document.getElementById("email").value;
+        const mobile = document.getElementById("mobile").value;
+        // const country = document.getElementById("country").value;
+        if(mobile.length!==10){
+            
+            // alert("Please enter")
+            document.getElementById("wm").innerHTML = "wrong mobile no";
+            document.getElementById("myBtn").disabled = true;
+        }
+        
+        // document.getElementById(submit-btn).removeAttribute('disabled');
+        window.location.href = `thank.html?email=${email}&mobile=${mobile}`;
+      });
+    </script>
+  </body>
+</html>

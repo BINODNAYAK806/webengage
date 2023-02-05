@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <style>
+      /* Add CSS styling for page 2 here */
+      #div1{
+        
+        text-align: center;
+        align-items: center;
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1">
+    <h1>Thank You!</h1>
+    <p>Thanks a ton for taking out your precious time and for completing the survey</p>
+    <p>Email Address: <span id="email"></span></p>
+    <p>Contact Number: <span id="country"></span>-<span id="mobile"></span></p>
+  </div>
+    <script>
+      // Add JavaScript code for page 2 here
+      const urlParams = new URLSearchParams(window.location.search);
+      const email = urlParams.get("email");
+      const mobile = urlParams.get("mobile");
+      const country = urlParams.get("country");
+      document.getElementById("email").innerHTML = email;
+      document.getElementById("mobile").innerHTML = mobile;
+      document.getElementById("country").innerHTML = country;
+    </script>
+  </body>
+</html>
